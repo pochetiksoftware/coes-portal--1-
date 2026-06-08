@@ -49,11 +49,9 @@ export default function App() {
   }
 
   return (
-    <div className="flex h-screen bg-slate-100 font-sans text-slate-800 overflow-hidden">
-      <Sidebar currentScreen={currentScreen} setCurrentScreen={setCurrentScreen} />
-      <div className="flex-1 flex flex-col min-w-0 overflow-hidden relative">
-        <Topbar />
-        <main className="flex-1 overflow-y-auto p-4 md:p-8 relative">
+    <div className="flex flex-col h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 font-sans text-white overflow-hidden">
+      <Topbar currentScreen={currentScreen} setCurrentScreen={setCurrentScreen} />
+      <main className="flex-1 overflow-y-auto relative">
           {currentScreen === 'dashboard' && (
             <DashboardScreen
               setCurrentScreen={setCurrentScreen}
@@ -95,7 +93,6 @@ export default function App() {
             </div>
           )}
         </main>
-      </div>
       <EncuestaModal
         isOpen={showSurveyModal}
         onClose={() => setShowSurveyModal(false)}
