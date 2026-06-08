@@ -1,6 +1,6 @@
 # COES-SINAC: Portal de Service Desk Institucional
 
-**Autor:** Estudiante de Ingeniería de Sistemas - Universidad Tecnológica del Perú (UTP)  
+**Autor:** HANS CASTILLA FIGUEROA - Universidad Tecnológica del Perú (UTP)  
 **Versión:** 1.0.0  
 **Estado:** Desarrollo Activo
 
